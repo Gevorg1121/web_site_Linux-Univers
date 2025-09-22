@@ -1,0 +1,199 @@
+*{
+  margin: 0;
+  padding:  0;
+  box-sizing: border-box;
+  color: aliceblue;
+}
+a,li,ul{
+  text-decoration: none;
+  list-style-type:none;
+}
+
+@font-face {
+	font-family: raleway_f;
+	src: url(../fonts/raleway-regular.woff2);
+}
+@font-face {
+	font-family: raleway_f;
+	src: url(../fonts/raleway-black.woff2);
+	font-weight: 900;
+}
+
+.header__menu-article2{
+  text-shadow: 0 0 15px #42fd3f !important;
+}
+
+.history{
+  padding-bottom: 150px;
+  background: linear-gradient(45deg, rgb(44, 131, 112) 23%, rgb(5, 58, 40) 68%);;
+  /* background: linear-gradient(45deg, rgb(25, 70, 41) 22%, rgb(43, 163, 41) 85%); */
+  /* background: linear-gradient(45deg, rgb(115, 161, 155) 22%, rgb(0, 104, 107) 78%); */
+}
+
+.wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.history__wrapper{
+  position: fixed;
+  min-width: 1400px;
+  max-width: 1900px;
+  margin: 0px auto;
+  padding: 0 0 0 calc(var(--index) * 10);
+  z-index: 4;
+  top: 20px;
+
+}
+
+.history__title{
+  text-shadow: 0 0 34px #42fd3f;
+  padding-top: 120px;
+  display: flex;
+  margin: 0 auto;
+  width: 500px;
+  justify-content: center;
+  font-size: 36px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+} 
+
+
+.first__party__img, .seconde__party__img{
+  max-width: 400px;
+  max-height: 500px;
+  border-radius: 20px;
+}
+
+.first__party__content__title,.seconde__party__content__title{
+  text-shadow: 0 0 34px #04fa00;
+  z-index: 2;
+}
+
+
+.first__party__content__description,.seconde__party__content__description{
+  white-space:pre-wrap;
+  font-size: 20px;
+  line-height: 1.40;
+  z-index: 2;
+
+}
+.first__party__content,.seconde__party__content{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+}
+.first__party,.seconde__party,.third__party,.fourth__party,.fifth__party{
+  display: flex;
+  position: relative;
+  margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+
+}
+.first__party,.third__party,.fifth__party{
+  flex-direction: row;
+}
+
+.seconde__party__content__title{
+z-index: 2;
+
+}
+.seconde__party,.fourth__party{
+  flex-direction: row-reverse;
+
+}
+
+.third__party::after{
+  z-index: 1;
+  content: "";
+  position: absolute;
+  right: 570px;
+  width: 66%;
+  height: 100%;
+  bottom: -190px;
+  font-weight: 700;
+  font-size: 400px;
+  text-align: center;
+  background-image: url(../img/history/debian.png);
+  background-repeat: no-repeat;
+}
+
+.first__party::after{
+  z-index: 1;
+    content: "";
+    position: absolute;
+    rotate: 396deg;
+    left: 868px;
+    top: 623px;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+    font-size: 400px;
+    text-align: center;
+  background-image: url(../img/history/linux.webp);
+  background-repeat: no-repeat;
+}
+  
+.today{
+  
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.today__title{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.today__list{
+  font-size: 20px;
+  line-height: 1.40;
+  
+}
+
+
+.today__list__article{
+  padding-bottom: 20px;
+  list-style-type: disc;
+}
+
+.today__gradient{
+  background-image: linear-gradient(to right, #0cebeb, #20e3b2, #29ffc6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background: linear-gradient(45deg, rgb(0, 0, 0) 38%, rgb(75, 74, 0) 100%); */
+
+/* .first__party{
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 70px;
+  max-height: 850px;
+  max-width: 860px;
+  background-image: url(../img/history/peakpx.jpg); 
+  background-image: url(../img/history/grotte.png);
+} */
+
+

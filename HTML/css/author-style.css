@@ -1,0 +1,24 @@
+
+
+.author{
+  background: linear-gradient(45deg, rgb(82, 100, 100), rgb(38, 80, 73));;
+  padding-bottom: 35%;
+  padding-top: 115px;
+}
+
+.lycee__img{
+  border-radius: 20px;
+  max-width: 600px;
+  max-height: 600px;
+  
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.author__title{
+  padding-top: 40px;
+}
+

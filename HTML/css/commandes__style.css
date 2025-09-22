@@ -1,0 +1,30 @@
+*{color: aliceblue;}
+
+
+span{
+  font-weight: 900;
+}
+
+.comm{
+  background: linear-gradient(45deg, rgb(31, 43, 43), rgb(38, 80, 73));;
+  padding-bottom: 35%;
+}
+.wrapper{
+  margin: 0 auto;
+  max-width: 1200px;
+  display: flex;
+  gap: 50px;
+}
+
+.comm__title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 150px;
+  padding-top: 130px;
+  font-size: 40px;
+}
+
+.comm__title{
+  padding-top: 50px;
+}

@@ -1,0 +1,96 @@
+.OS{
+  background: linear-gradient(45deg, rgb(31, 43, 43), rgb(38, 80, 73));
+}
+
+.OS__article{
+  display: flex;
+}
+
+.OS__article__content1__img,.OS__article__content2__img,.OS__article__content3__img{
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.OS__article__content1,.OS__article__content2,.OS__article__content3{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px;
+  transition: all 0.3s;
+}
+
+.OS__title{
+  display: flex;
+  justify-content: center;
+  padding-top: 125px;
+  padding-bottom: 50px;
+  font-size: 39px;
+  font-weight: 800;
+}
+
+.OS__article{
+  gap: 50px;
+  padding: 60px 0 ;
+}
+
+.Ubuntu{
+  text-shadow: 0 0 30px #ff811a
+}
+.Debian{
+  text-shadow: 0 0 30px #f61f1f
+}
+.Mint{
+  text-shadow: 0 0 30px #169f28
+}
+.Fedora{
+  text-shadow: 0 0 30px #166907
+}
+.Arch{
+  text-shadow: 0 0 15px #58ecff
+}
+.Manjaro{
+  text-shadow: 0 0 15px #0365f7
+}
+
+.OS__article__content__title{
+  font-size: 28px;
+  padding-bottom: 20px;
+}
+
+.OS__article__content__desription{
+  font-size: 18px;
+}
+
+.Ubuntu__content:hover{
+  
+  border-radius: 15px;
+  background-color: #ff811a;
+
+}
+
+.Ubuntu__content:hover,.Debian__content:hover,.Mint__content:hover,.Fedora__content:hover,.Arch__content:hover,.Manjaro__content:hover{
+  
+  border-radius: 15px;
+  background-color: #ff811a;
+
+}
+.Ubuntu__content:hover{
+  background-color: #ff811a;
+}
+.Debian__content:hover{
+background-color: #e04a4a;
+}
+.Mint__content:hover{
+  background-color: #31e000b1;
+}
+.Fedora__content:hover{
+  background-color: #049b48;
+
+}
+.Arch__content:hover{
+  background-color: #184a72;
+
+}
+.Manjaro__content:hover{
+  background-color: #00223d;
+}
